@@ -19,15 +19,22 @@ em {
 }
 
 .blueBox {
-    background: #627da0; 
+    background: #627da0;
+    position: inherit; 
+    top: 110px;
+    z-index: 10;
 }
 
 .greenBox {
     background: #5b8054;  
+    position: relative;
+    top: -150px;
+    z-index: 1;
 }
 
 .container {
-    /*background: rgba(0,0,0,5);
+    background: rgba(0,0,0,5);
     width: 200px;
-    height: 200px;*/
+    height: 200px;
+    position: relative;
 }
