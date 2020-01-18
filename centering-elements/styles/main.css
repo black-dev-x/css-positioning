@@ -19,8 +19,8 @@ em {
 }
 
 .blueBox {
-
-}
-.container {
-
+    /*margin: 0 auto; is one of the possibilities to center horizontally*/
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
 }
